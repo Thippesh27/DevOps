@@ -1,0 +1,1000 @@
+   31  cd ..
+   32  ls
+   33  cd ..
+   34  ls
+   35  cd linux_class/
+   36  ls -lrt
+   37  cd class1/
+   38  ls
+   39  cd linux1/
+   40  ls
+   41  ls -lrt
+   42  pwd
+   43  cd ../..
+   44  pwd
+   45  ls
+   46  rm -rf class1
+   47  ls -lt
+   48  pwd
+   49  ls -lrt
+   50  clear
+   51  touch file1.txt file2,txt
+   52  ls -lrt
+   53  ls -lt
+   54  mkdir linux
+   55  ls
+   56  ls -lrt
+   57  ls -lt
+   58  pwd
+   59  cd linux/
+   60  cd ..
+   61  pwd
+   62  rm -rf file2,txt 
+   63  ls -lrt
+   64  touch file2.txt
+   65  ls
+   66  ls -lrt
+   67  clear
+   68  vi file1.txt 
+   69  ls
+   70   ls -lrt
+   71  vi file1.txt 
+   72  cat file1.txt 
+   73  cat file1.txt file2.txt 
+   74  vi file2.txt 
+   75  cat file1.txt file2.txt 
+   76  ls
+   77  vi file1.txt 
+   78  cat file1.txt 
+   79  vi file1.txt 
+   80  cat file1.txt 
+   81  clear
+   82  vi file1.txt 
+   83  cat file1.txt 
+   84  vi file1.txt 
+   85  cat file1.txt 
+   86  vi file1.txt 
+   87  cat file1.txt 
+   88  vi file1.txt 
+   89  ls -lrt
+   90  cat file1.txt file2.txt 
+   91  vi file1.txt 
+   92  clear
+   93  cat file1.txt 
+   94  vi file1.txt 
+   95  wc -l
+   96  pwd
+   97  ls
+   98  cd linux_class/
+   99  pwd
+  100  ls
+  101  vi file1.txt 
+  102  ls -lrt
+  103  ls -lt
+  104  cat file1.txt file2.txt 
+  105  clear
+  106  pwd
+  107  cd ..
+  108  pwd
+  109  mkdir -p linux_class/class1/Linux1
+  110  ls
+  111  cd linux_class/
+  112  ls
+  113  ms -mf class1/
+  114  rm -rf class1/
+  115  ls
+  116  wc -l file1.txt 
+  117  wc -w file1.txt file2.txt 
+  118  wc -c file1.txt 
+  119  echo "HI"
+  120  echo -e "Hi/n How r U ?"
+  121  echo -e "Hi\n How r U ?"
+  122  echo -e "HI\nHow R U ?"
+  123  clear
+  124  cat file2.txt 
+  125  echo -e "Hi\nHow R U?" > file2.txt 
+  126  cat file2.txt 
+  127  echo "I am Good" >> file2.txt 
+  128  cat file2.txt 
+  129  echo -e"I am DevOps Engineer" >> abc.txt
+  130  ls
+  131  cat abc.txt 
+  132  echo "I am DevOps Engineer" > abc.txt 
+  133  cat abc.txt 
+  134  echo " I have 4+ years expeirence in DevOps" >> abc.txt 
+  135  cat abc.txt 
+  136  history
+  137  cd ..
+  138  ls -lt
+  139  cd linux_class/
+  140  ls
+  141  ls -lrt
+  142  cd linux/
+  143  ls
+  144  cd ../..
+  145  pwd
+  146  ls -lrt
+  147  cat temp/
+  148  cd linux_class/
+  149  ls
+  150  cat file1.txt file2.txt abc.txt 
+  151  vi file2.txt 
+  152  vi abc.txt 
+  153  echo "I am currently working in BP" >> abc.txt 
+  154  cat abc.txt 
+  155  clear
+  156  history
+  157  exit
+  158  pwd
+  159  ls
+  160  rm -rf temp/
+  161  ls
+  162  cd linux_class/
+  163  ls -lrt
+  164  #!/bin/bash
+  165  vi initial.sh
+  166  ls -lrt
+  167  ./initial.sh
+  168  chmod u+x initial.sh
+  169  ./initial.sh aamer hi
+  170  vi initial.sh 
+  171  ./initial.sh 
+  172  ./initial.sh lucky 2
+  173  vi initial.sh 
+  174  ./initial.sh 
+  175  ./initial.sh Ajay 29
+  176  vi initial.sh 
+  177  ./initial.sh Adi 30
+  178  vi initial.sh 
+  179  ./initial.sh Apar 30
+  180  vi shellscript1.sh
+  181  ./shellscript1.sh
+  182  chmod u+x shellscript1.sh 
+  183  ./shellscript1.sh 5 8
+  184  vi shellscript1.sh 
+  185  ./shellscript1.sh 1 2
+  186  vi shellscript1.sh 
+  187  ./shellscript1.sh 1 2
+  188  vi shellscript1.sh 
+  189  ./shellscript1.sh 2 1
+  190  cd linux_class/
+  191  ls -lrt
+  192  cat abc1.txt 
+  193  man ls -lrt
+  194  free
+  195  free -h
+  196  clear
+  197  less file1.txt 
+  198  more file1.txt 
+  199  df -kh
+  200  ls -lt
+  201  ls -lrt
+  202  df -kh
+  203  cd /
+  204  ls -lrt
+  205  df -kh .
+  206  pwd
+  207  df -kh run
+  208  du -sh run
+  209  cd ../
+  210  pwd
+  211  ls -lrt
+  212  du -sh boot
+  213  du -sh home
+  214  du home
+  215  df -kh
+  216  du -sh*
+  217  du -sh *
+  218  sudo du -sh *
+  219  pwd
+  220  clear
+  221  cd ..
+  222  pwd
+  223  cd linux_class
+  224   cd
+  225  cd linux_class/
+  226  pwd
+  227  ls -lrt
+  228  vi abc1.txt 
+  229  wc -l abc1.txt 
+  230  vi abc1.txt 
+  231  cat abc1.txt 
+  232  head -3 abc1.txt 
+  233  tail +16 abc1.txt 
+  234  tail -5 abc1.txt 
+  235  clear
+  236  head -10 $ abc1.txt 
+  237  tail -10,$ abc1.txt 
+  238  tail -n+10 abc1.txt 
+  239  cat abc1.txt 
+  240  tail -n+8 abc1.txt 
+  241  tail -n+14 abc1.txt 
+  242  clear
+  243  head -n+3 abc1.txt 
+  244  head -30 abc1.txt 
+  245  head -6 abc1.txt 
+  246  head -6+5 abc1.txt 
+  247  head -6 abc1.txt 
+  248  tail -6 abc1
+  249  tail -6 abc1.txt 
+  250  head -6 abc1.txt 
+  251  tail -1 abc1.txt 
+  252  head -6 abc1.txt |tail -1 abc1.txt 
+  253  head -6 abc1.txt |tail -1
+  254  clear
+  255  cat abc1.txt 
+  256  tail -1 abc1.txt 
+  257  head -17 abc1.txt | tail -1
+  258  head -12 abc1.txt |tail -5
+  259  head -11 abc1.txt |tail -1 |wc -c
+  260  cat abc1.txt 
+  261  vi abc1.txt 
+  262  head -11 abc1.txt |tail -1 |wc -c
+  263  clear
+  264  head -11 abc1.txt |tail -1 |wc -c
+  265  head -10 abc1.txt | tail -1 |wc -w
+  266  head -11 abc1.txt |tail -1 |wc -c
+  267  head -9 abc1.txt | tail -1 wc-l
+  268  head -9 abc1.txt | tail -1 |wc -L
+  269  grep paragraph file1.txt 
+  270  grep -i paragraph file1.txt 
+  271  grep -i paragraph file1.txt | :set number
+  272  grep -i -n paragraph file1.txt 
+  273  clear
+  274  grep -i -c paragraph file1.txt 
+  275  grep -i paragraph file1.txt | -c
+  276  clear
+  277  grep -c -i paragraph file1.txt 
+  278  grep -i paragraph file1.txt 
+  279  grep -c -n -i paragraph file1.txt 
+  280  grep -i -n paragraph file1.txt 
+  281  grep -i -c paragraph file1.txt 
+  282  man grep
+  283  grep -w Paragraph file1.txt 
+  284  grep -i -e "para" -e "write" file1.txt 
+  285  grep -i -e "para" -e "write" -e "writing" file1.txt
+  286  pwd
+  287  cd linux_class/
+  288  ls -lrt
+  289  grep -l -r "Paragraph" *
+  290  grep -l -r "Devops" *
+  291  cat abc.txt 
+  292  grep -i -l -r "Devops" *
+  293  grep "^1" abc1.txt 
+  294  grep "$0" abc1.txt 
+  295  grep "0$" *
+  296  grep -l -r "0$" *
+  297  cd linux_class/
+  298  grep "0$" abc1.txt 
+  299  grep -i -l "devops" *
+  300  grep -i -l "devops"grep -i -l -r  "paragraph" *
+  301  grep
+  302  grep -i -n "paragraph" file1.txt 
+  303  grep -i -l -r "paragraph" *
+  304  grep -i  -v "therefore" file1.txt 
+  305  clear
+  306  ls -lrt | tail -1
+  307  vi abc1.txt 
+  308  ls -lrt | tail -1 
+  309  ls -lrt | tail -3
+  310  cat file1.txt abc.txt 
+  311  pwd
+  312  touch tem{1..5}.log
+  313  ls -lrt
+  314  ls -lrt *.txt
+  315  ls -lrt *.log
+  316  ls -lrt *.log|tail -1
+  317  ls -lt
+  318  ls -lt |head -6
+  319  rm *.log
+  320  ls -lrt
+  321  rm file2.txt 
+  322  ls -lrt
+  323  ls -lrt|tail -1
+  324  cd linux_class/
+  325  ls -lrt
+  326  chmod 764 abc1.txt 
+  327  ls -lrt
+  328  rm *.sh
+  329  ls -lrt
+  330  chmod 644 file1.txt 
+  331  ls -lrt
+  332  chmod u+x,g+w file1.txt 
+  333  ls -lrt
+  334  chmod u-x,g-w,o-r file1.txt 
+  335  ls -lrt
+  336  chmod o+r file1.txt 
+  337  ls -lrt
+  338  chmod 111 file1.txt 
+  339  ls -lrt
+  340  cat file1.txt 
+  341  chmod 761 file1.txt 
+  342  ls -lrt
+  343  cat file1.txt 
+  344  clear
+  345  pwd
+  346  cd ..
+  347  pwd
+  348  ls -lrt
+  349  cd linux_class/
+  350  ls -lrt
+  351  cd ..
+  352  chmod -R 761 linux_class/
+  353  cd linux_class/
+  354  ls -lrt
+  355  cd linux/
+  356  ls -lrt
+  357  chmod 764 linux_class
+  358  cd ..
+  359  ls -lrt
+  360  cd ..
+  361  ls -lrt
+  362  chmod 764 linux_class/
+  363  cd linux_class/
+  364  ls -lrt
+  365  cd ..
+  366  ls -lrt
+  367  chmod o+r-x linux_class/
+  368  cd linux_class/
+  369  ls -lrt
+  370  cd ..
+  371  pwd
+  372  chmod o+r linux_class/
+  373  cd linux_class/
+  374  ls -lrt
+  375  chmod 764 *.txt
+  376  ls -lrt
+  377  cd ..
+  378  ls -lrt
+  379  cd linux_class/
+  380  ls -lrt
+  381  chmod 764 linux/
+  382  cd ..
+  383  chmod -R 751 linux_class/
+  384  ls -lrt
+  385  cd linux_class/
+  386  ls -lrt
+  387  cd linux_class/
+  388  ls -lrt
+  389  ls -lrt |tee file2.txt
+  390  cat file2.txt 
+  391  sudo su-
+  392  sudo su -
+  393  pwd
+  394  cd ..
+  395  pwd
+  396  cd linux_class/
+  397  pwd
+  398  ls -lrt
+  399  clear
+  400  logout
+  401  cd linux_class/
+  402  cp abc1.txt file2.txt 
+  403  cat file2.txt 
+  404  vi file2.txt 
+  405  echo "Okay, I won't Delete" >>file2.txt 
+  406  cat file2.txt 
+  407  cat abc.txt >>abc1.txt 
+  408  cat abc1.txt 
+  409  clear
+  410  pwd
+  411  cd linux/
+  412  cd ..
+  413  pwd
+  414  ls -lrt
+  415  cd linux/
+  416  ls -lrt
+  417  cd ..
+  418  cp file2.txt /linuxs/querty.txt
+  419  pwd
+  420  cd linux/
+  421  mkdir tmp
+  422  ls -lrt
+  423  cd..
+  424  cd ..
+  425  ls -lrt
+  426  cp file2.txt /linux/tmp/querty.txt
+  427  cp file2.txt/linux/tmp/qwerty.txt 
+  428  cp --help
+  429  cp file2.txt /linux/tmp/querty.txtq
+  430  q
+  431  clear
+  432  pwd
+  433  cd linux/
+  434  ls -lrt
+  435  pwd
+  436  cd tmp
+  437  ls -lrt
+  438  pwd
+  439  cd ../..
+  440  cp file2.txt /linux/tmp/qwerty.txt
+  441  cp file2.txt /linux/tmp/file2.txt
+  442  pwd
+  443  cd linux/
+  444  cd tmp
+  445  pwd
+  446  cd ..
+  447  pwd
+  448  cp abc2.txt/home/ec2-user/linux_class/linux/tmp
+  449  /home/ec2-user/linux_class/linux/tmp
+  450  cd
+  451  pwd
+  452  cd linux_class/
+  453  cp file2.txt /home/ec2-user/linux_class/linux/tmp
+  454  cd linux/
+  455  cd tmp
+  456  ls -lrt
+  457  cat file2.txt 
+  458  cd ../..
+  459  ls -lrt
+  460  rm linux/tmp/file2.txt 
+  461  cd linux/tmp
+  462  ls -lrt
+  463  cd ../..
+  464  ls -lrt
+  465  cd
+  466  cp file1.txt/home/ec2-user/linux_class/linux/tmp
+  467  cd /linux/tmp
+  468  pwd
+  469  cd linux_class/linux/tmp
+  470  ls -lrt
+  471  cd ../..
+  472  cp file1.txt /linux/tmp/xyz.txt
+  473  cd ../..
+  474  pwd
+  475  root 
+  476  sudo - su
+  477  sudo su -
+  478  ec2-user
+  479  ec2-user@65.0.106.10
+  480  pwd
+  481  cd linux_class/
+  482  ls -lrt
+  483  cd linux/tmp
+  484  ls -lrt
+  485  pwd
+  486  cd ../..
+  487  pwd
+  488  cp file1.txt /home/ec2-user/linux_class/linux/tmp
+  489  cd linux/tmp
+  490  ls -lrt
+  491  cat file1.txt 
+  492  cd ../..
+  493  clear
+  494  pwd
+  495  rm /home/ec2-user/linux_class/linux/tmp
+  496  cd linux/tmp/
+  497  ls -lrt
+  498  rm/home/ec2-user/linux_class/linux/tmp file1.txt
+  499  cd ../..
+  500  pwd
+  501  cd /linux/tmp
+  502  cd linux/tmp
+  503  ls -lrt
+  504  cd ..
+  505  pwd
+  506  ls -lrt
+  507  rm tmp/file1.txt 
+  508  ls -lrt
+  509  cd tmp
+  510  ls -lrt
+  511  cd ../..
+  512  pwd
+  513  ls -lrt
+  514  mkdir downloads
+  515  ls -lrt
+  516  touch pou{1..5}.log.txt
+  517  ls -lrt
+  518  mv pou{1..5}.log.txt/downloads
+  519  rm *.log.txt
+  520  ls -lrt
+  521  cd downloads/
+  522  touch pop{1..5}.log.txt
+  523  ls -lrt
+  524  cd ..
+  525  cp linux downloads/
+  526  cp -r linux downloads/
+  527  cd ..
+  528  ls -lrt
+  529  pwd
+  530  cd linux_class/linux/
+  531  ls -lrt
+  532  cd ..
+  533  ls -lrt
+  534  cd downloads/
+  535  ls -lrt
+  536  mv ..
+  537  mv /..
+  538  mv linux/..
+  539  mv linux ../
+  540  cd ..
+  541  ls -lrt
+  542  mv downloads upload
+  543  ls -lrt
+  544  mv upload linux/
+  545  ls -lrt
+  546  cd linux/
+  547  ls -lrt
+  548  mv upload ../
+  549  ls -lrt
+  550  cd ..
+  551  ls -lrt
+  552  mv upload downloads/
+  553  ls -lrt
+  554  clear
+  555  diff file1.txt file2.txt 
+  556  sdiff file1.txt file2.txt 
+  557  exit
+  558  pwd
+  559  clear
+  560  top
+  561  q
+  562  Q
+  563  clear
+  564  ls
+  565  touch abc.txt
+  566  ls
+  567  rm abc.txt
+  568  ls
+  569  df
+  570  df -kh
+  571  df -kh tmpfs
+  572  du -sh
+  573  pwd
+  574  lixux version
+  575  linux version
+  576  uname
+  577  uname linux version
+  578  uname
+  579  version
+  580  uname -a
+  581  clear
+  582  pwd
+  583  cd linux_class/
+  584  pwd
+  585  ls -lrt
+  586  vi abc.txt 
+  587  vi abc.txt
+  588  vi abc.txt 
+  589  sed -i'DevOps/Tester/g'
+  590  clear
+  591  sed -i'DevOps/Tester/g'
+  592  clear
+  593  sed -i 'Devops/Tester/g' abc.txt 
+  594  pwd
+  595  sed -i '/DevOps/Tester/g' abc.txt
+  596  sed -i 's/DevOps/Tester/g' abc.txt
+  597  cat abc.txt
+  598  vi abc.txt
+  599  history
+  600  clear
+  601  touch tmp.sh
+  602  vi tmp.sh
+  603  pwd
+  604  ls
+  605  cd linux_class/
+  606  ls
+  607  ls -lrt
+  608  cat file1.txt 
+  609  cat file2.txt 
+  610  cat abc.txt 
+  611  sed 's/Devops/Testing/g'
+  612  pwd
+  613  cd linux_class/
+  614  ls -lrt
+  615  cat abc.txt 
+  616  sed 's/Devops/Testing/g' abc.txt 
+  617  sed '2s/Devops/Testing/g' abc.txt 
+  618  cat abc.txt 
+  619  vi abc.txt 
+  620  vi abc1.txt 
+  621  vi abc.txt 
+  622  sed 's/Devops/Testing/g' abc.txt 
+  623  sed 's/BP/Amazon/g' abc.txt 
+  624  sed '2s/Devops/Testing/g' abc.txt 
+  625  pwd
+  626  vi file3.txt
+  627  ls -lrt
+  628  cat file3.txt
+  629  touch file3.txt
+  630  ls -lrt
+  631  vi file3.txt 
+  632  /home/ec2-user/linux_class
+  633  vi file3.txt 
+  634  pwd
+  635  vi file3.txt 
+  636  sed 's/\//\\/g' file3.txt 
+  637  sed 'p' file3.txt 
+  638  sed 's/devops/testing/ig' abc.txt 
+  639  vi file3.txt 
+  640  sed 'p' file3.txt 
+  641  vi file3.txt 
+  642  sed 'p' file3.txt 
+  643  sed -n '3p' abc.txt 
+  644  sed '2p' abc.txt 
+  645  head -3 abc.txt 
+  646  head -2 abc.txt 
+  647  tail -2 abc.txt 
+  648  tail -n+2 abc.txt 
+  649  tail -1 abc.txt 
+  650  head -3 abc.txt |tail -1
+  651  sed '2p' abc.txt 
+  652  sed -n '2p' abc.txt 
+  653  vi abc.txt 
+  654  cat abc.txt 
+  655  sed -n '2p' abc.txt 
+  656  head -1 abc.txt 
+  657  head -3 abc.txt 
+  658  head -3 abc.txt |tail -2
+  659  sed -n '2p' abc.txt 
+  660  sed -n '2,3p' abc.txt 
+  661  sed 's/devops/Testing/i2' abc.txt 
+  662  sed '2/devops/Testing/ig' abc.txt 
+  663  sed -n '2 devops/Testing/ig' abc.txt 
+  664  sed '2s/devops/Testing/ig' abc.txt 
+  665  sed -n '2p' abc.txt |'s/devops/Testing/ig'
+  666  sed -n '2p' abc.txt 
+  667  sed '2p' 's/devops/Testing/ig' abc.txt 
+  668  head -n+1 abc.txt 
+  669  head -n+2 abc.txt |grep -i -e "devops" -e "testing" abc.txt 
+  670  |grep -i -e "devops" -e "testing" abc.txt
+  671  grep -i -e "devops" -e "testing" abc.txt
+  672  head -n+2 abc.txt |sed 's/Devops/Testing/'
+  673  sed '2p' abc.txt |sed 's/devpos/testing/i'
+  674  sed -n '2p' abc.txt |sed 's/devpos/Testing/i' abc.txt 
+  675  head -n+2 abc.txt | tail -1 | sed 's/Devops/Testing/g' abc.txt 
+  676  head -n+2 abc.txt | tail -1 
+  677  head -n+2 abc.txt | tail -1 | sed 's/Devops/Testing/g' 
+  678  head -n+3 abc.txt | tail -2 | sed 's/devops/testing/ig'
+  679  history
+  680  q
+  681  pwd
+  682  sed -n '2p' abc.txt 
+  683  sed -n '2p' abc.txt |sed 's/4/5/g' abc.txt 
+  684  sed -n '2p' abc.txt 
+  685  sed -n '2p' abc.txt |sed 's/4/5/g'
+  686  sed -n '2p' abc.txt |'s/devops/Testing/ig'
+  687  sed -n '2p' abc.txt | sed 's/devops/Testing/ig'
+  688  head -n+3 abc.txt | sed 's/devops/Testing/ig'
+  689  vi file3.txt 
+  690  cut -1 f1 file3.txt 
+  691  cut -d "-" f1 file3.txt 
+  692  cut -d "-" - f1 file3.txt 
+  693  cut -d "-" -f1 file3.txt
+  694  cut -d "-" -f1,2 file3.txt
+  695  cut -d "-" -f4 file3.txt
+  696  clear
+  697  ls -lrt
+  698  cut -d " " -f1 ls -lrt
+  699  cat ls -lrt
+  700  ls -lrt | cut -d " " -f1 
+  701  ls -lrt | cut -d " " -f1 |tail -8
+  702  ls -lrt | cut -d " " -f1 |tail -n+2
+  703  clear
+  704  ls -lrt
+  705  ls -lrt | cut -d " " -f8 
+  706  ls -lrt | cut -d " " -6
+  707  ls -lrt | cut -d " " -f6
+  708  clear
+  709  ls -lrt
+  710  ls -lrt | awk -F " " {print $6}
+  711  ls -lrt | awk -F " " '{print $6}'
+  712  ls -lrt | awk -f " " '{print $6}'
+  713  ls -lrt | awk -F " " '{print $6}'
+  714  ls -lrt | cut -d " " -f2
+  715  clear
+  716  ls -lrt | cut -d " " -f2
+  717  ls -lrt
+  718  ls -lrt | awk -F " " '{print $(NF-10)}
+  719  ls -lrt | awk -F " " '{print $(NF-10)}'
+  720  clear
+  721  pwd
+  722  ls -lrt | awk -F " " '{print $6}'
+  723  clear
+  724  exit
+  725  pwd
+  726  cd linux_class/
+  727  ls -lrt
+  728  ls -lrt | awk -F " " '{print $(NF-1}'| tail -n+2
+  729  ls -lrt | awk -F " " '{print {$NF-1}'| tail -n+2
+  730  ls -lrt | awk -F " " '{print $NF-1}'| tail -n+2
+  731  ls -lrt | awk -F " " '{print $NF}'| tail -n+2
+  732  ls -lrt | awk -F " " '{print $NF-2}'| tail -n+2
+  733  ls -lrt | awk -F " " '{print $NF}'| tail -n+2
+  734  cd linux_class/
+  735  history
+  736  q
+  737  Q
+  738  clear
+  739  man find
+  740  history
+  741  clear
+  742  find /home/ec2-user/ -size +1G -mtime +30 -type f -print
+  743  find /home/ec2-user/ -size -1G -mtime +30 -type f -print
+  744  find /home/ec2-user/ -size -1G -mtime +30 -type f
+  745  find /home/ec2-user/ -size -1G -mtime +30 -type d
+  746  find /home/ec2-user/ -size -1M -mtime +30 -type f
+  747  find /home/ec2-user/ -size +1M
+  748  find /home/ec2-user/ -size +1M -type f
+  749  find . -type f -size -1M
+  750  find . -type f -size +1M
+  751  find . -type f -size -1M -mtime -30
+  752  find /home/ec2-user/ -type f -size -1M -mtime -30
+  753  find /home/ec2-user/ -type f -size +1M -mtime -30
+  754  du -sh
+  755  find /home/ec2-user/ -type f -size +10K -mtime -30
+  756  find /home/ec2-user/ -type f -size +1M
+  757  find /home/ec2-user/ -type f -size +15b
+  758  find /home/ec2-user/ -type f -size +40b
+  759  find /home/ec2-user/ -type f -size +10b
+  760  find /home/ec2-user/ -type f -size +10b -mtime -30
+  761  find /home/ec2-user/ -type f -size -10b -mtime -30
+  762  find /home/ec2-user/ -type d -size -10b -mtime -30
+  763  -s FILE
+  764  CLEAR
+  765  clear
+  766  find /home/ec2-user/ -type f -size 0
+  767  pwd
+  768  touch 123.sh
+  769  find /home/ec2-user/ -type f -size 0
+  770  find /home/ec2-user/ -type f -size +1b
+  771  find /home/ec2-user/-maxdepth 3 -type f -size +1b
+  772  find /home/ec2-user/-maxdepth 2 -type f -size +1b
+  773  find /home/ec2-user/-maxdepth 1 -type f -size +1b
+  774  find /home/ec2-user/-maxdepth 1 -type f
+  775  find /home/ec2-user/ -maxdepth 1 -type f
+  776  find /home/ec2-user/ -maxdepth 1 -type f -size +1b
+  777  find /home/ec2-user/ -maxdepth 2 -type f -size +1b
+  778  find /home/ec2-user/ -maxdepth 2 -type f -size +0.1b
+  779  find /home/ec2-user/ -maxdepth 2 -type f -size 1b
+  780  cat file1.txt 
+  781  find /home/ec2-user/ -maxdepth 2 -type f -size - 1b
+  782  find /home/ec2-user/ -maxdepth 2 -type f -size -1b
+  783  ls -lrt
+  784  find . -type f -size +1b 
+  785  find /home/ec2-user/ -maxdepth 2 -type f -size 0
+  786  find /home/ec2-user/ -maxdepth 2 -type f -empty
+  787  find /home/ec2-user/ -maxdepth 2 -type f -size +1b
+  788  find /home/ec2-user/ -maxdepth 2 -type f -notempty
+  789  find /home/ec2-user/ -maxdepth 2 -type f -empty
+  790  clear
+  791  ls
+  792  ls -l
+  793  ls -h
+  794  ls -lh
+  795  ls -sh
+  796  find /home/ec2-user/ -maxdepth 2 -type f -size +1
+  797  find /home/ec2-user/ -maxdepth 2 -type f -size +1K
+  798  find /home/ec2-user/ -maxdepth 2 -type f -size +1k
+  799  find /home/ec2-user/ -maxdepth 2 -type f -size 0K
+  800  find . -type f -size 0K
+  801  find . -type f -size 0
+  802  find . -type f -size -1b
+  803  find . -type f -size +1b
+  804  ls -l
+  805  find . -type d -size +1b
+  806  find /home/ec2-user/-type d -size 0
+  807  find /home/ec2-user/ -type d -size 0
+  808  find /home/ec2-user/ -type d -empty
+  809  find /home/ec2-user/ -type f -empty
+  810  find /home/ec2-user/ -type f -size +1b
+  811  ls -sh
+  812  cat file1.txt file2.txt file3.txt abc.txt abc1.txt 123.sh 
+  813  ls -lrt
+  814  man find
+  815  find /home/ec2-user/ -type f -size 1
+  816  cat file1.txt 
+  817  find /home/ec2-user/ -type f -size +1c
+  818  find . -type f -size +1b
+  819  find . -type f -size +1c
+  820  exit
+  821  cd linux_class/
+  822  ls
+  823  ls -lrt
+  824  vi file3.txt 
+  825  head -4 file3.txt |tail -n+3
+  826  cat file3.txt 
+  827  head -4 file3.txt |tail -n+4
+  828  head -4 file3.txt |tail -n+2
+  829  pwd
+  830  clear
+  831  pwd
+  832  find /home/ec2-user/ -type f -mtime -10
+  833  find /home/ec2-user/ -type f -mtime +10
+  834  find . -type f -mmin +15
+  835  find . -type f -mmin +5
+  836  find . -type f -mmin -15
+  837  find . -type f -mmin -5
+  838  find . -type f -mmin -60
+  839  find /home/ec2-user/ -type d -mtime -10
+  840  find /home/ec2-user/ -type d -mmin -9920
+  841  find /home/ec2-user/ -type d -mmin -99
+  842  find /home/ec2-user/ -type d -mmin -5
+  843  find /home/ec2-user/ -type d -mmin +5
+  844  clear
+  845  find /home/ec2-user/ -type d -perm 655
+  846  find /home/ec2-user/ -type d -perm 755
+  847  pwd
+  848  ls -lrt
+  849  find /home/ec2-user/ -type f -perm 751
+  850  find /home/ec2-user/ -type f -perm 664
+  851  chmod u+x file3.txt 
+  852  ls -lrt
+  853  find /home/ec2-user/ -type f -perm 764
+  854  find /home/ec2-user/ -type f -empty
+  855  clear
+  856  find . -type f -empty
+  857  cat tmp.sh 
+  858  vi tmp.sh 
+  859  rm | find . type -f -empty 
+  860   find . type -f -empty | xargs rm
+  861   find . type -f -empty | exec rm
+  862   find . -type f -empty | exec rm
+  863   find . -type f -empty | xargs rm
+  864  cat tmp.sh 
+  865   find . -type f -empty
+  866  cd linux_class/
+  867  find /home/ec2-user/ -maxdepth 1 -type f
+  868  find /home/ec2-user/ -maxdepth 2 -type f
+  869  cd linux_class/
+  870  pwd
+  871  ls -lrt
+  872  echo "Hello World" > xyz.txt
+  873  cat xyz.txt 
+  874  echo "#############" >> xyz.txt 
+  875  cat xyz.txt 
+  876  ln -s /home/ec2-user/linux_class/xyz.txt xyz_Soft_link
+  877  ls -lrt
+  878  cat xyz_Soft_link 
+  879  echo "Soft link testing" >> xyz_Soft_link 
+  880  cat xyz_Soft_link 
+  881  cd  /home/ec2-user/linux_class/xyz.txt /home/ec2-user/linux_class/
+  882  pwd
+  883  cd .
+  884  pwd
+  885  cd ../
+  886  pwd
+  887  ls -lrt
+  888  ls -l /home/ec2-user/linux_class/xyz_Soft_link 
+  889  rm xyz_Soft_link
+  890  cd linux_class/
+  891  ls -lrt
+  892  rm xyz_Soft_link 
+  893  ls -lrt
+  894  cd .
+  895  pwd
+  896  cd .
+  897  pwd
+  898  ln -s /home/ec2-user/linux_class/xyz.txt XYZ_SOFT_LINK
+  899  ls -lrt
+  900  pwd
+  901  rm XYZ_SOFT_LINK 
+  902  ls -lrt
+  903  cd ./.
+  904  pwd
+  905  cd .
+  906  pwd
+  907  cd..
+  908  cd ..
+  909  pwd
+  910  ln -s /home/ec2-user/linux_class/xyz.txt XYZ_SOFT_LINK
+  911  LS -LRT
+  912  ls -lrt
+  913  cat XYZ_SOFT_LINK 
+  914  echo "second time testing" >>XYZ_SOFT_LINK 
+  915  cat XYZ_SOFT_LINK 
+  916  cat /home/ec2-user/linux_class/xyz.txt 
+  917  pwd
+  918  echo "SOFT Link Delete Testing" > /home/ec2-user/linux_class/Delete.txt
+  919  ln -s /home/ec2-user/linux_class/Delete.txt Delete_Soft_Link.txt
+  920  ls -lrt
+  921  rm /home/ec2-user/linux_class/Delete.txt 
+  922  cat Delete_Soft_Link.txt 
+  923  cd linux_class/
+  924  ls -lrt
+  925  ls -i
+  926  ls -i xyz.txt 
+  927  cd ../..
+  928  pwd
+  929  cd ec2-user/
+  930  pwd
+  931  ls -lrt
+  932  ls -i XYZ_SOFT_LINK 
+  933  pwd
+  934  echo "Its Hard Link Testing" > linux_class/234.txt
+  935  cat linux_class/234.txt 
+  936  ln /lpwd
+  937  pwd
+  938  ls -lrt
+  939  history
+  940  clear
+  941  echo "Its Hard Link Testing" > linux_class/Hard.txt
+  942  cd linux_class/
+  943  ls -lrt
+  944  cat Hard.txt 
+  945  cd ./.
+  946  pwd
+  947  cd .
+  948  pwd
+  949  cd ../
+  950  pwd
+  951  cd ../..
+  952  pwd
+  953  ls -lrt
+  954  cd home/
+  955  ls -lrt
+  956  cd ec2-user/
+  957  ls -lrt
+  958  ln linux_class/Hard.txt Hard_Link.txt
+  959  cat linux_class/Hard.txt 
+  960  ls -lrt
+  961  cat Hard_Link.txt 
+  962  rm linux_class/Hard.txt 
+  963  ls -lrt
+  964  cat Hard_Link.txt 
+  965  ls -i Hard_Link.txt 
+  966  ls -i linux_class/
+  967  cd .
+  968  ls -lrt
+  969  echo "Testing After original file deleted from source" >> Hard_Link.txt 
+  970  cat Hard_Link.txt 
+  971  ls -lrt
+  972  clear
+  973  uname
+  974  uname -v
+  975  uname -m
+  976  uname -a
+  977  who
+  978  where ?
+  979  whoami
+  980  w
+  981  what
+  982  w
+  983  ls -a
+  984  ls -lart
+  985  ls -i *
+  986  cd linux_class/
+  987  ls -lrt
+  988  cd ..
+  989  ls -lrt
+  990  history
+  991  clear
+  992  pwd
+  993  cd ..
+  994  pwd
+  995  cd ec2-user/
+  996  ls -lrt
+  997  cat Hard_Link.txt 
+  998  cat Delete_Soft_Link.txt 
+  999  cat XYZ_SOFT_LINK 
+ 1000  clear
+ 1001  sudo yum install git
+ 1002  git
+ 1003  whichgit
+ 1004  which git
+ 1005  whereis git
+ 1006  uname -v
+ 1007  git --version
+ 1008  cat /etc/os-release
+ 1009  ls -lrt
+ 1010  ls -lart
+ 1011  git init
+ 1012  ls -lart
+ 1013  git status
+ 1014  cd linux_class/
+ 1015  ls -lart
+ 1016  git init
+ 1017  ls -lart
+ 1018  git status
+ 1019  git add *
+ 1020  ls -lart
+ 1021  git status
+ 1022  git commit -m "Adding scripts"
+ 1023  git remote -v
+ 1024  git push
+ 1025  git remote add origin https://github.com/Thippesh27/DevOps.git
+ 1026  git push origin
+ 1027   git push --set-upstream origin master
+ 1028  clear
+ 1029   git push --set-upstream origin master
+ 1030  history > History.txt
